@@ -128,7 +128,7 @@ def main():
         print("  2. Capturar calificaciones       (HU-02)")
         print("  3. Calcular promedio y estatus   (HU-03)")
         print("  4. Mostrar reporte del grupo     (HU-04)")
-        print("  5. Ver lista del grupo (HU-05)")
+        print("  5. Ver lista del grupo           (HU-05)")
         print("  0. Salir")
         print("-" * 50)
 
