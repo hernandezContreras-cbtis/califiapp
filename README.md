@@ -23,6 +23,16 @@ Tablero del proyecto: (pega aquí la liga de tu tablero de GitHub Projects)
 | HU-02 | Capturar calificaciones de 0 a 10 | Terminada |
 | HU-03 | Calcular promedio y estatus (aprueba con 6) | Terminada |
 | HU-04 | Mostrar reporte del grupo | Terminada |
+| HU-05 | Ver la lista del grupo en orden alfabético con su total | Terminada (Sprint 1) |
+| HU-06 | Consultar a un alumno: sus parciales y su promedio | Terminada (Sprint 1) |
+
+## Sprint 1 (9 y 10 de noviembre de 2026)
+
+**Objetivo del Sprint:** (copia aquí el objetivo de tu equipo)
+
+Incremento: opciones 5 (HU-05) y 6 (HU-06) del menú, con 5 pruebas nuevas (18 en total).
+
+Lo que aprendimos en la Sprint Review: (lo llenas en la Jugada 9)
 
 ## Cómo ejecutar
 
@@ -40,7 +50,7 @@ Si `python` no se reconoce, usa `py src/main.py`.
 python -m unittest discover -s tests -v
 ```
 
-Debe decir **Ran 13 tests** y **OK**.
+Debe decir **Ran 18 tests** y **OK**.
 
 ## Estructura del proyecto
 
@@ -53,7 +63,7 @@ califiapp/
 │   ├── main.py            (menú de consola)
 │   └── calificaciones.py  (lógica de las HU)
 └── tests/
-    └── test_calificaciones.py  (12 pruebas)
+    └── test_calificaciones.py  (18 pruebas)
 ```
 
 ## Definición de Terminado (DoD)
@@ -64,6 +74,7 @@ Una tarjeta pasa a **Terminado** solo si cumple las 4:
 [ ] Las pruebas pasan: `python -m unittest discover -s tests` dice **OK**.
 [ ] El copiloto revisó el cambio en el Pull Request.
 [ ] El README quedó actualizado.
+[ ] Un compañero del equipo revisó el cambio antes del commit.
 
 ## Reglas del equipo para usar Git
 
